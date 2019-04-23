@@ -6,6 +6,9 @@ This repo contains a slightly modified [Panda3D Hello World](https://www.panda3d
 * Ctrl - descend
 
 ## FlyMove options
-* sb = showbase instance
+
+    FlyMove(base, mouse_magnitude=30, min_pitch=-60, max_pitch=60)
+
+* showbase instance
 * mouse_magnitude = multiplier for mouse sensitivity, higher is more sensitive (30 is default)
 * min_pitch / max_pitch = lowest and highest angles from horizontal the mouse will be constrained. -90 and 90 will allow them to look directly up and down, -30 and 30 is 60 degrees of movement, 30 degrees above and below horizontal.
